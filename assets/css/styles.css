@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #666666;
+  }
+  
+body {
+    background-image: url(../../assets/images/pipes.png);
+    background-repeat: repeat;
+    margin: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  .menucontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+    align-content: space-around;
+    color: #666666;
+    background-image: url(../../assets/images/pipes.png);
+    background-repeat: repeat;
+    height: 210px;
+    padding: 10px;
+    border-color: #666666;
+    border-radius: 42px;
+    border-style: solid;
+    border-width: 7px 21px 7px 21px;
+    
+    
+  }
+
+  .submenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 960px;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+  }
+  
+
+.name {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+    width: 320px;
+    color: #666666;
+    background-image: url(../../assets/images/pipes.png);
+    background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    border-radius: 42px;
+    border-style: solid;
+    border-width: 7px 21px 7px 21px;
+    border-color: #666666;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+
+.abt {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+    align-content: center;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+.port {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-items: flex-end;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+.cntct {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-items: flex-end;
+    font-size: 1.5em;
+    margin: 7px;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+
+.sectioncontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+    color: #666666;
+    background-image: url(../../assets/images/pipes.png);
+    background-repeat: repeat;
+    height: auto;
+    padding: 10px;
+    border-radius: 42px;
+    border-style: solid;
+    border-width: 7px 21px 7px 21px;
+    border-color: #666666;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+  }
+
+.section {
+	/* display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: flex-start; */
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+    align-content: space-around;
+    width: 960px;
+    height: auto;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+
+.apc {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 20px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: #666666;
+    margin: 10px;
+}
+
+.aboutpicture {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	/* align-content: stretch; */
+    /* width: auto; */
+    height: 230px;
+    margin: 10px;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+.paragragh {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px;
+    width: 680px;
+    text-align: justify;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+
+.links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 20px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: #666666;
+    margin: 10px;
+}
+
+
+.portbox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+    align-content: space-around;
+    border: 21px; 
+    border-style: solid;
+    border-color: #666666;
+}
+
+
+.formbox {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 95%;
+    color: #666666;
+	align-items: stretch;
+    align-content: stretch;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.footercontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+    color: #666666;
+    background-image: url(../../assets/images/pipes.png);
+    background-repeat: repeat;
+    height: auto;
+    padding: 10px;
+    border-radius: 42px;
+    border-style: solid;
+    border-width: 7px 21px 7px 21px;
+    border-color: #666666;
+    /* border: 1px; 
+    border-style: solid;
+    border-color: lightgrey; */
+}
+
+  /* hyperlink 411 */
+
+a {
+    text-decoration: none;
+    color: fff;
+    text-decoration: underline;
+  }
+
+  /* Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
+
+
+  /* These rules take effect when the browser's width is <= 980px */
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightgreen;
+        padding: 30 px;
+        font-size-adjust: 90%;
+    }
+}
+
+  /* These rules take effect when the browser's width is <= 768px */
+
+
+  @media screen and (max-width: 768px) {
+    body {
+        background-color: lightcoral;
+        padding: 20 px;
+        font-size-adjust: 80%;
+    }
+}
+  
+  /* These rules take effect when the browser's width is <= 640px */
+
+
+  @media screen and (max-width: 640px) {
+    body {
+        background-color: red;
+        padding: 10 px;
+        font-size-adjust: 70%;
+    }
+}
+  
+ 
